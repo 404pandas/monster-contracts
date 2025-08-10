@@ -2,86 +2,86 @@
   "jobs": [
     {
       "id": "1",
-      "title": "Senior React Developer",
+      "title": "Griffin Slayer",
       "type": "Full-Time",
-      "description": "We are seeking a talented Front-End Developer to join our team in Boston, MA. The ideal candidate will have strong skills in HTML, CSS, and JavaScript, with experience working with modern JavaScript frameworks such as React or Angular.",
-      "location": "Boston, MA",
-      "salary": "$70K - $80K",
+      "location": "White Orchard",
+      "description": "A griffin has been terrorizing the farmlands, attacking livestock and peasants. The witcher must track, kill, and present the trophy to claim payment.",
+      "salary": "150 crowns",
       "company": {
-        "name": "NewTek Solutions",
-        "description": "NewTek Solutions is a leading technology company specializing in web development and digital solutions. We pride ourselves on delivering high-quality products and services to our clients while fostering a collaborative and innovative work environment.",
-        "contactEmail": "contact@teksolutions.com",
-        "contactPhone": "555-555-5555"
+        "name": "Alderman Harviken",
+        "description": "The village elder of White Orchard, sworn to protect the people from beast attacks. Fair payer and respectful of witchers' code.",
+        "contactEmail": "harviken@whiteorchard.post",
+        "contactPhone": "555-111-1111"
       }
     },
     {
       "id": "2",
-      "title": "Front-End Engineer (React & Redux)",
+      "title": "Noonwraith Banisher",
       "type": "Full-Time",
-      "location": "Miami, FL",
-      "description": "Join our team as a Front-End Developer in sunny Miami, FL. We are looking for a motivated individual with a passion for crafting beautiful and responsive web applications. Experience with UI/UX design principles and a strong attention to detail are highly desirable.",
-      "salary": "$70K - $80K",
+      "location": "Velen - Crookback Bog",
+      "description": "A noonwraith haunts the abandoned mill, appearing daily at high noon. The witcher must banish the spirit using proper oils, signs, and rituals.",
+      "salary": "90 crowns + silver dagger",
       "company": {
-        "name": "Veneer Solutions",
-        "description": "Veneer Solutions is a creative agency specializing in digital design and development. Our team is dedicated to pushing the boundaries of creativity and innovation to deliver exceptional results for our clients.",
-        "contactEmail": "contact@loremipsum.com",
-        "contactPhone": "555-555-5555"
+        "name": "Velen Peasants' Council",
+        "description": "A group of farmers and millers pooling coin to hire a professional monster slayer.",
+        "contactEmail": "council@velen.post",
+        "contactPhone": "555-222-2222"
       }
     },
     {
       "id": "3",
-      "title": "React.js Dev",
+      "title": "Drowner Nest Purger",
       "type": "Full-Time",
-      "location": "Brooklyn, NY",
-      "description": "Are you passionate about front-end development? Join our team in vibrant Brooklyn, NY, and work on exciting projects that make a difference. We offer competitive compensation and a collaborative work environment where your ideas are valued.",
-      "salary": "$70K - $80K",
+      "location": "Novigrad Harbor",
+      "description": "Drowners infest the docks, dragging dockhands into the water and damaging shipments. Destroy the nest and cleanse the area.",
+      "salary": "120 crowns",
       "company": {
-        "name": "Dolor Cloud",
-        "description": "Dolor Cloud is a leading technology company specializing in digital solutions for businesses of all sizes. With a focus on innovation and customer satisfaction, we are committed to delivering cutting-edge products and services.",
-        "contactEmail": "contact@dolorsitamet.com",
-        "contactPhone": "555-555-5555"
+        "name": "Novigrad Merchants’ Guild",
+        "description": "A powerful guild of traders and shippers determined to keep their profits safe from monsters.",
+        "contactEmail": "guildmaster@novigrad.trade",
+        "contactPhone": "555-333-3333"
       }
     },
     {
       "id": "4",
-      "title": "React Front-End Developer",
+      "title": "Werewolf Hunter",
       "type": "Part-Time",
-      "description": "Join our team as a Part-Time Front-End Developer in beautiful Pheonix, AZ. We are looking for a self-motivated individual with a passion for creating engaging user experiences. This position offers flexible hours and the opportunity to work remotely.",
-      "location": "Pheonix, AZ",
-      "salary": "$60K - $70K",
+      "location": "Ard Skellig - Pinewood",
+      "description": "A cursed man stalks the forests, killing livestock and frightening clansfolk. The Jarl demands his head before the next full moon.",
+      "salary": "200 crowns + cask of mead",
       "company": {
-        "name": "Alpha Elite",
-        "description": "Alpha Elite is a dynamic startup specializing in digital marketing and web development. We are committed to fostering a diverse and inclusive workplace where creativity and innovation thrive.",
-        "contactEmail": "contact@adipisicingelit.com",
-        "contactPhone": "555-555-5555"
+        "name": "Jarl Thormar",
+        "description": "Leader of a small Skellige clan. Fierce protector of his people and patron of witcher contracts.",
+        "contactEmail": "jarlthormar@skellige.isles",
+        "contactPhone": "555-444-4444"
       }
     },
     {
       "id": "5",
-      "title": "Full Stack React Developer",
+      "title": "Leshen Eliminator",
       "type": "Full-Time",
-      "description": "Exciting opportunity for a Full-Time Front-End Developer in bustling Atlanta, GA. We are seeking a talented individual with a passion for building elegant and scalable web applications. Join our team and make an impact!",
-      "location": "Atlanta, GA",
-      "salary": "$90K - $100K",
+      "location": "Crookback Woods, Velen",
+      "description": "Hunters have gone missing, their remains found tangled in roots. A leshen has claimed the territory and must be destroyed.",
+      "salary": "300 crowns + hunter’s bow",
       "company": {
-        "name": "Browning Technologies",
-        "description": "Browning Technologies is a rapidly growing technology company specializing in e-commerce solutions. We offer a dynamic and collaborative work environment where employees are encouraged to think creatively and innovate.",
-        "contactEmail": "contact@consecteturadipisicing.com",
+        "name": "Velen Huntsmen's Lodge",
+        "description": "A brotherhood of trappers and gamekeepers sworn to protect the wilds from dark forces.",
+        "contactEmail": "huntsmen@velen.trap",
         "contactPhone": "555-555-5555"
       }
     },
     {
       "id": "6",
-      "title": "React Native Developer",
+      "title": "Foglet Exterminator",
       "type": "Full-Time",
-      "description": "Join our team as a Front-End Developer in beautiful Portland, OR. We are looking for a skilled and enthusiastic individual to help us create innovative web solutions. Competitive salary and great benefits package available.",
-      "location": "Portland, OR",
-      "salary": "$100K - $110K",
+      "location": "Pontar Riverbank, Oxenfurt Outskirts",
+      "description": "A murderous foglet preys on ferrymen along the Pontar. Kill the beast and bring proof to claim the bounty.",
+      "salary": "110 crowns + river pearls",
       "company": {
-        "name": "Port Solutions INC",
-        "description": "Port Solutions is a leading technology company specializing in software development and digital marketing. We are committed to providing our clients with cutting-edge solutions and our employees with a supportive and rewarding work environment.",
-        "contactEmail": "contact@ipsumlorem.com",
-        "contactPhone": "555-555-5555"
+        "name": "Oxenfurt Riverboat Association",
+        "description": "A collective of ferrymen and dock owners relying on safe river travel.",
+        "contactEmail": "riverguild@oxenfurt.port",
+        "contactPhone": "555-666-6666"
       }
     }
   ]
