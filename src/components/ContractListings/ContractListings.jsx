@@ -1,21 +1,19 @@
 import { useState, useEffect } from "react";
 import ContractListing from "../ContractListing/ContractListing";
 import Spinner from "../Spinner/Spinner";
-import data from "../../jobs.json";
 
 const ContractListings = ({ isHome = false }) => {
-  const [Contracts, setContracts] = useState([]);
+  const [contracts, setContracts] = useState([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const fetchContracts = async () => {
-      const contractData = data;
+      const res = await fetch("http://www.localhost:8000/contracts");
+      const data = await res.json();
 
       try {
         // data.jobs contains the array
-        const contractsArray = isHome
-          ? contractData.jobs.slice(0, 3)
-          : contractData.jobs;
+        const contractsArray = isHome ? data.slice(0, 3) : data;
         setContracts(contractsArray);
         console.log(contractsArray);
       } catch (error) {
@@ -39,10 +37,10 @@ const ContractListings = ({ isHome = false }) => {
           <Spinner loading={loading} />
         ) : (
           <div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
-            {Contracts.map(
-              (Contract) => (
-                console.log(Contract),
-                (<ContractListing key={Contract.id} contract={Contract} />)
+            {contracts.map(
+              (contract) => (
+                console.log(contract),
+                (<ContractListing key={contract.id} contract={contract} />)
               )
             )}
           </div>
