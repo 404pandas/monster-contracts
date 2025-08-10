@@ -8,7 +8,9 @@ const ContractListings = ({ isHome = false }) => {
 
   useEffect(() => {
     const fetchContracts = async () => {
-      const res = await fetch("http://www.localhost:8000/contracts");
+      const apiUrl = isHome ? "api/contracts?limit=3" : "api/contracts";
+
+      const res = await fetch(apiUrl);
       const data = await res.json();
 
       try {

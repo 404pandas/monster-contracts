@@ -97,6 +97,37 @@ monster-contracts/
 └── vite.config.ts
 ```
 
+--
+
+## 📜 Contract Loader
+
+Location:
+src/pages/ContractPage.jsx
+
+Purpose:
+The contractLoader is the Witcher’s way of preparing for the hunt before even stepping into the village square. In development terms, it’s a data loader for the ContractPage that tells our React Router to fetch a specific contract’s details before rendering the page.
+
+Why We Use It:
+Just like a witcher studies his prey before drawing his silver sword, our loader ensures that the ContractPage has the necessary contract information ready to display—avoiding empty UI flashes and reducing the risk of “loading limbo.”
+
+How It Works:
+
+The contractLoader listens for the id parameter in the URL.
+
+It sends a fetch request to /api/contracts/:id (served by our JSON Server).
+
+Once the contract data is retrieved, React Router passes it to the page via useLoaderData().
+
+This gives our ContractPage instant access to the details, such as the title, type, description, reward, and location—just like a notice board entry in The Witcher 3.
+
+Example Flow:
+
+Geralt clicks on a contract in the “Recent Contracts” list.
+
+The contractLoader retrieves the monster’s details from the mock backend.
+
+The page renders with the full posting—ready for negotiation, preparation, and eventual monster-slaying.
+
 ---
 
 ## 📜 The Fine Print (Dev Dependencies)
