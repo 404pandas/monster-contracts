@@ -1,9 +1,26 @@
-import { useParams, useLoaderData, Link } from "react-router-dom";
+import { useLoaderData, Link, useNavigate } from "react-router-dom";
 import { FaArrowLeft, FaMapMarker } from "react-icons/fa";
+import PropTypes from "prop-types";
+import { toast } from "react-toastify";
 
-const ContractPage = () => {
-  const { id } = useParams();
+const ContractPage = ({ deleteContract }) => {
   const contract = useLoaderData();
+
+  const navigate = useNavigate();
+
+  const onDeleteClick = (id) => {
+    const confirm = window.confirm(
+      "Are you sure you want to delete this contract?"
+    );
+
+    if (!confirm) {
+      return;
+    }
+    deleteContract(id);
+
+    toast.success("Contract deleted successfully");
+    navigate("/contracts");
+  };
 
   return (
     <div>
@@ -76,12 +93,15 @@ const ContractPage = () => {
               <div className='bg-white p-6 rounded-lg shadow-md mt-6'>
                 <h3 className='text-xl font-bold mb-6'>Manage Job</h3>
                 <Link
-                  to={`/contracts/edit/${contract.id}`}
+                  to={`/edit-contract/${contract.id}`}
                   className='bg-indigo-500 hover:bg-indigo-600 text-white text-center font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline mt-4 block'
                 >
                   Edit Job
                 </Link>
-                <button className='bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline mt-4 block'>
+                <button
+                  onClick={() => onDeleteClick(contract.id)}
+                  className='bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline mt-4 block'
+                >
                   Delete Job
                 </button>
               </div>
@@ -97,6 +117,11 @@ const contractLoader = async ({ params }) => {
   const res = await fetch(`/api/contracts/${params.id}`);
   const data = await res.json();
   return data;
+};
+
+// ask Dustin about this
+ContractPage.propTypes = {
+  deleteContract: PropTypes.func.isRequired,
 };
 
 export { ContractPage as default, contractLoader };

@@ -6,7 +6,7 @@
       "type": "Full-Time",
       "location": "White Orchard",
       "description": "A griffin has been terrorizing the farmlands, attacking livestock and peasants. The witcher must track, kill, and present the trophy to claim payment.",
-      "salary": "150 crowns",
+      "salary": "100-200 Crowns",
       "company": {
         "name": "Alderman Harviken",
         "description": "The village elder of White Orchard, sworn to protect the people from beast attacks. Fair payer and respectful of witchers' code.",
@@ -20,7 +20,7 @@
       "type": "Full-Time",
       "location": "Velen - Crookback Bog",
       "description": "A noonwraith haunts the abandoned mill, appearing daily at high noon. The witcher must banish the spirit using proper oils, signs, and rituals.",
-      "salary": "90 crowns + silver dagger",
+      "salary": "400-500 Crowns",
       "company": {
         "name": "Velen Peasants' Council",
         "description": "A group of farmers and millers pooling coin to hire a professional monster slayer.",
@@ -34,7 +34,7 @@
       "type": "Full-Time",
       "location": "Novigrad Harbor",
       "description": "Drowners infest the docks, dragging dockhands into the water and damaging shipments. Destroy the nest and cleanse the area.",
-      "salary": "120 crowns",
+      "salary": "500-600 Crowns",
       "company": {
         "name": "Novigrad Merchants’ Guild",
         "description": "A powerful guild of traders and shippers determined to keep their profits safe from monsters.",
@@ -48,7 +48,7 @@
       "type": "Part-Time",
       "location": "Ard Skellig - Pinewood",
       "description": "A cursed man stalks the forests, killing livestock and frightening clansfolk. The Jarl demands his head before the next full moon.",
-      "salary": "200 crowns + cask of mead",
+      "salary": "500-600 Crowns",
       "company": {
         "name": "Jarl Thormar",
         "description": "Leader of a small Skellige clan. Fierce protector of his people and patron of witcher contracts.",
@@ -62,7 +62,7 @@
       "type": "Full-Time",
       "location": "Crookback Woods, Velen",
       "description": "Hunters have gone missing, their remains found tangled in roots. A leshen has claimed the territory and must be destroyed.",
-      "salary": "300 crowns + hunter’s bow",
+      "salary": "700-800 Crowns",
       "company": {
         "name": "Velen Huntsmen's Lodge",
         "description": "A brotherhood of trappers and gamekeepers sworn to protect the wilds from dark forces.",
@@ -76,7 +76,7 @@
       "type": "Full-Time",
       "location": "Pontar Riverbank, Oxenfurt Outskirts",
       "description": "A murderous foglet preys on ferrymen along the Pontar. Kill the beast and bring proof to claim the bounty.",
-      "salary": "110 crowns + river pearls",
+      "salary": "700-800 Crowns",
       "company": {
         "name": "Oxenfurt Riverboat Association",
         "description": "A collective of ferrymen and dock owners relying on safe river travel.",
